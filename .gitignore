@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environments and machine-specific files
+.venv/
+.venv*/
+.g4_clean_env/
+.env
+.env.*
+!.env.example
+
+# Logs and internal orchestration
+logs/
+rounds/
+*.log
+
+# Archives generated locally
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Active manuscript and submission-only drafts are not public-package files
+scaffold/docs/manuscript_drafts/*.md
+!scaffold/docs/manuscript_drafts/figures/
+
+# Raw or rights-unclear third-party data
+scaffold/data/ground_motions/raw/
+scaffold/data/ground_motions/original/
+*.AT2
+*.at2
+*.VT2
+*.vt2
+
+# External binaries are not part of the public reproducibility package
+scaffold/tools/opensees_bin/
+*.exe
+*.dll
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini

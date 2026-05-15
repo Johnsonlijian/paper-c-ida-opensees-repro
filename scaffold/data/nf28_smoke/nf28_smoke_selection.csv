@@ -1,0 +1,2 @@
+specimen_id,gm_id,gm_path,dt,npts,pga_g,run_dir
+S01,NF8208252,data/ground_motions/ATC-63_NearField_SortedEQFiles/SortedEQFiles/SortedEQFile_(8208252).txt,0.02,1500,1.431426,data/nf28_smoke/runs/S01/NF8208252/NF_SMOKE/G_smoke/SaT1/00

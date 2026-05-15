@@ -1,0 +1,3 @@
+contrast,B,median_delta_logtheta,q05_delta_logtheta,q95_delta_logtheta,p_delta_logtheta_lt_0,median_theta_percent_shift,q05_theta_percent_shift,q95_theta_percent_shift,median_psi,interpretation
+FFext_vs_FF22,1000,0.27226683179293254,-0.1476597932418942,0.7100445673910514,0.147,31.293728798578037,-13.727543024942646,103.40819103506095,0.1411106627765647,sign_sensitive_under_existing_record_bootstrap
+NF28_vs_FF22,1000,-0.4360436763172069,-0.8203206145039387,-0.045980002201002,0.972,-35.341051532872825,-55.97095316360572,-4.493893888112321,0.21802183815860346,direction_stable_negative_in_existing_record_bootstrap

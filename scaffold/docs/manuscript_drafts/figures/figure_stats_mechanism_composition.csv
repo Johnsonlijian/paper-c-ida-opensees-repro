@@ -1,0 +1,9 @@
+mechanism_label,fraction,record_set,protocol
+flexural_drift,0.96,FF22,P1
+right_censored,0.04,FF22,P1
+flexural_drift,0.96,FF22,P2
+right_censored,0.04,FF22,P2
+flexural_drift,0.96,FFext,P1
+right_censored,0.04,FFext,P1
+flexural_drift,0.96,FFext,P2
+right_censored,0.04,FFext,P2

@@ -1,0 +1,13 @@
+group,theta,beta,mu,n_total,n_observed,n_censored,log_likelihood,n_records_per_pool,n_im_levels,record_selection_source,im_grid,open_sees_source,scenario,scenario_order,record_set,protocol,censoring_rate,n_runs,n_nonconverged,n_first_crossing
+ALL,0.3528796335426031,0.5919142903610022,-1.0416282616619523,25,24,1,-22.80503166713308,5,5,expanded_pilot_v2_selected,G2_coarse_0p2_to_1p0,existing_v2_runs,v2_N5_G5_existing,0,FF22,P1,0.04,125,0,24
+ALL,0.2858344100386669,0.6164662466325915,-1.2523426217181202,25,24,1,-23.86389015046454,5,5,expanded_pilot_v2_selected,G2_coarse_0p2_to_1p0,existing_v2_runs,v2_N5_G5_existing,0,FFext,P1,0.04,125,0,24
+ALL,0.2173469850569602,0.225246755716657,-1.5262601930170885,25,25,0,1.7905710306311216,5,5,expanded_pilot_v2_selected,G2_coarse_0p2_to_1p0,existing_v2_runs,v2_N5_G5_existing,0,NF28,P1,0.0,125,0,25
+ALL,0.2850706457618363,0.7280756977199858,-1.255018249564532,25,25,0,-27.539707517017035,5,12,expanded_pilot_v2_selected,G3_fine_0p1_to_1p2,new_r34_runs,r34_N5_G12_v2_records,1,FF22,P1,0.0,300,0,25
+ALL,0.2140170153350367,0.7760998612248193,-1.5416997562097237,25,25,0,-29.136611935339907,5,12,expanded_pilot_v2_selected,G3_fine_0p1_to_1p2,new_r34_runs,r34_N5_G12_v2_records,1,FFext,P1,0.0,300,0,25
+ALL,0.1401330298393324,0.4405696968688389,-1.965163094401467,25,25,0,-14.981297772500644,5,12,expanded_pilot_v2_selected,G3_fine_0p1_to_1p2,new_r34_runs,r34_N5_G12_v2_records,1,NF28,P1,0.0,300,0,25
+ALL,0.2827557707247136,0.5328605920743468,-1.263171754911367,50,49,1,-40.20019704854268,10,5,sensitivity_v3_selected,G2_coarse_filtered_from_G3,existing_v3_level0_filtered,r34_N10_G5_v3_records,2,FF22,P1,0.02,250,0,49
+ALL,0.3283384676312784,0.5381298773842086,-1.1137102891447517,50,49,1,-40.5956377041928,10,5,sensitivity_v3_selected,G2_coarse_filtered_from_G3,existing_v3_level0_filtered,r34_N10_G5_v3_records,2,FFext,P1,0.02,250,0,49
+ALL,0.2143546904407038,0.2079439643640263,-1.5401232040189248,50,50,0,7.577359585104674,10,5,sensitivity_v3_selected,G2_coarse_filtered_from_G3,existing_v3_level0_filtered,r34_N10_G5_v3_records,2,NF28,P1,0.0,250,0,50
+ALL,0.2070450420911918,0.7159959831398178,-1.5748189147436098,50,50,0,-54.24289114717702,10,12,sensitivity_v3_selected,G3_fine_0p1_to_1p2,existing_v3_runs,v3_N10_G12_existing,3,FF22,P1,0.0,600,0,50
+ALL,0.2705804024393434,0.6320905328473214,-1.307185988486928,50,50,0,-48.01079457789336,10,12,sensitivity_v3_selected,G3_fine_0p1_to_1p2,existing_v3_runs,v3_N10_G12_existing,3,FFext,P1,0.0,600,0,50
+ALL,0.1325739126095046,0.4132719292363126,-2.020614958070615,50,50,0,-26.76445328499401,10,12,sensitivity_v3_selected,G3_fine_0p1_to_1p2,existing_v3_runs,v3_N10_G12_existing,3,NF28,P1,0.0,600,0,50

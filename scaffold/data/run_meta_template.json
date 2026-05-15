@@ -1,0 +1,13 @@
+{
+  "run_id": "S01/GM01/P1/G1/SaT1/0",
+  "specimen_id": "S01",
+  "gm_id": "GM01",
+  "analysis_protocol_id": "P1",
+  "im_grid_id": "G1",
+  "im_type": "SaT1",
+  "im_level": 0,
+  "im_value": 0.2,
+  "scale_factor": 1.0,
+  "converged": true,
+  "analysis_status": "ok"
+}

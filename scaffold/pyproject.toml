@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paper-c-eesd"
+version = "0.1.0"
+description = "Scaffold: Paper C (IDA) — β decomposition, fragility MLE, OpenSees/IDA stubs for EESD line."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Lijian REN", email = "renlijian@imut.edu.cn" }]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.11",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "pyyaml>=6.0",
+  "pydantic>=2.0",
+  "pydantic-settings>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "pytest-cov>=4.1",
+  "ruff>=0.3.0",
+]
+opensees = [
+  "openseespy>=3.5.0",
+]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/paper_c_eesd", "tests", "configs", "README.md", "pyproject.toml"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/paper_c_eesd"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["src/paper_c_eesd"]

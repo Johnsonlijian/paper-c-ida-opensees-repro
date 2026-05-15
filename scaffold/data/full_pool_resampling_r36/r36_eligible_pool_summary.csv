@@ -1,0 +1,4 @@
+record_set,n_eligible_records,min_pga_g,max_pga_g,eligibility_rule
+FF22,123,0.0151785,0.822429,"P695_FF22_AT2_original: AT2 horizontal components, vertical/UP excluded, duplicate gm_id removed"
+FFext,159,0.0151785,0.883219,"FFext_AT2_flat: AT2 horizontal components, vertical/UP excluded, duplicate gm_id removed"
+NF28,28,0.219541,1.431426,ready near-field horizontal components; one strongest component per base_eq_id

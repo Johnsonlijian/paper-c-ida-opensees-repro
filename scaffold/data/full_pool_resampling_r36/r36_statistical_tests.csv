@@ -1,0 +1,5 @@
+contrast,test,n,k_negative,raw_p_value,holm_p_value,effect_size_p_negative,note
+FFext_vs_FF22,sign_test_delta_logtheta_vs_zero,10,3,0.34375,0.34375,0.3,"Monte Carlo subset-draw sign test; interpret as stability screen, not universal inference."
+FFext_vs_FF22,wilcoxon_signed_rank_delta_logtheta_vs_zero,10,3,0.322265625,,0.3,Uses subset-level delta values; small-B result is diagnostic.
+NF28_vs_FF22,sign_test_delta_logtheta_vs_zero,10,10,0.001953125,0.00390625,1.0,"Monte Carlo subset-draw sign test; interpret as stability screen, not universal inference."
+NF28_vs_FF22,wilcoxon_signed_rank_delta_logtheta_vs_zero,10,10,0.001953125,,1.0,Uses subset-level delta values; small-B result is diagnostic.

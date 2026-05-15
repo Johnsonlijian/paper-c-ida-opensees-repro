@@ -1,0 +1,21 @@
+# Full-scale IDA (FEMA P-695 far-field 22; 20 IM steps) — all numerics for scripts.
+# Source of truth: do not hardcode 30/22/20 in Python; read via `load_config("default")`.
+project: paper-c-eesd
+version: "0.1.0"
+ida:
+  n_specimens: 30
+  n_ground_motions: 22
+  n_im_levels: 20
+
+ground_motion:
+  set: "FEMA_P695_far_field_22"
+  at2_dir: "data/ground_motions"
+
+opensees:
+  steel: "Steel02"
+  concrete: "Concrete02"
+  n_calibrate_specimens: 3
+  default_damping_zeta: 0.02
+
+output:
+  ida_csv: "data/ida_results/ida_raw_all.csv"

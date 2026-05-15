@@ -1,0 +1,7 @@
+extends: default
+ida:
+  n_specimens: 5
+  n_ground_motions: 5
+  n_im_levels: 5
+output:
+  ida_csv: "data/ida_results/ida_raw_pilot.csv"

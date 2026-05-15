@@ -1,0 +1,2 @@
+specimen_id,H,drift_limit,residual_drift_limit,steel_eps_t_limit,steel_eps_c_limit,concrete_eps_c_limit
+S01,3.0,0.04,0.01,0.05,-0.05,-0.008

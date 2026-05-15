@@ -1,0 +1,6 @@
+gm_set,gm_id,path,dt,npts,pga_g
+FFext_AT2_flat,STM090,data/gm_ffext/STM090.AT2,0.02,2000.0,0.883219
+FFext_AT2_flat,DZC270,data/gm_ffext/DZC270.AT2,0.005,5437.0,0.357876
+FFext_AT2_flat,CHY104-N,data/gm_ffext/CHY104-N.AT2,0.004,37500.0,0.186682
+FFext_AT2_flat,TCU117-E,data/gm_ffext/TCU117-E.AT2,0.005,18000.0,0.119099
+FFext_AT2_flat,CHY059-V,data/gm_ffext/CHY059-V.AT2,0.005,18000.0,0.0151785

@@ -1,0 +1,58 @@
+item_id,kind,path_or_url,exists_checked_2026_05_13,include_in_public_repo,redistribution_status,manuscript_dependency,verification_or_next_action
+GM_DERIVED_01,derived_metadata,scaffold/data/ground_motions/_derived/gm_manifest.csv,TRUE,CONDITIONAL,Derived metadata. Exclude raw third-party records. Source-rights note still needs author confirmation.,Figure 2 and Section 7,Audit columns before public release
+GM_DERIVED_02,derived_metadata,scaffold/data/ground_motions/_derived/nf28_sorted_manifest.csv,TRUE,CONDITIONAL,Derived metadata. Include only if metadata redistribution is approved.,Sections 3.1 4.5 and 7,Confirm source-rights boundary
+GM_DERIVED_03,derived_metadata,scaffold/data/ground_motions/_derived/spectral_shape_index.csv,TRUE,CONDITIONAL,Derived metadata. Include after provenance audit.,Figure 2 and Section 7,Audit provenance fields
+FORMAL_PILOT_01,derived_results,scaffold/data/formal_pilot_v1/figures/formal_pilot_v1_summary.csv,TRUE,YES,Derived result table.,Figure 3 and Section 7,Include in package manifest
+EXPANDED_V2_01,derived_results,scaffold/data/expanded_pilot_v2/figures/expanded_pilot_v2_summary.csv,TRUE,YES,Derived result table.,Figures 6-7 and Section 7,Include in package manifest
+EXPANDED_V2_02,derived_results,scaffold/data/expanded_pilot_v2/figures/protocol_effect_ledger.csv,TRUE,YES,Derived protocol-effect ledger.,Section 4.4 and Section 7,Include in package manifest
+SENS_V3_01,derived_results,scaffold/data/sensitivity_v3/figures/sensitivity_v3_summary.csv,TRUE,YES,Derived result table.,Figure 8 and Section 7,Include in package manifest
+SENS_V3_02,derived_results,scaffold/data/sensitivity_v3/figures/sensitivity_v3_protocol_effect_ledger.csv,TRUE,YES,Derived protocol-effect ledger.,Figure 8 and Section 7,Include in package manifest
+THRESH_V4_01,derived_results,scaffold/data/threshold_sensitivity_v4/figures/threshold_sensitivity_v4_summary.csv,TRUE,YES,Derived threshold-sensitivity table.,Figure 9 and Section 7,Include in package manifest
+THRESH_V4_02,derived_results,scaffold/data/threshold_sensitivity_v4/figures/threshold_sensitivity_v4_protocol_effect_ledger.csv,TRUE,YES,Derived threshold-sensitivity ledger.,Figure 10 and Section 7,Include in package manifest
+R1_BOOT_01,derived_results,scaffold/data/resampling_r1/r1_subset_manifest.csv,TRUE,YES,Derived existing-record bootstrap draw manifest.,Section 4.8 and Section 7,Include in package manifest
+R1_BOOT_02,derived_results,scaffold/data/resampling_r1/r1_censored_mle_by_subset.csv,TRUE,YES,Derived existing-record bootstrap MLE table.,Section 4.8 and Section 7,Include in package manifest
+R1_BOOT_03,derived_results,scaffold/data/resampling_r1/r1_protocol_effect_distribution.csv,TRUE,YES,Derived existing-record bootstrap protocol-effect distribution.,Figure 12 Section 4.8 and Section 7,Include in package manifest
+R1_BOOT_04,derived_results,scaffold/data/resampling_r1/r1_summary_table.csv,TRUE,YES,Derived existing-record bootstrap summary table.,Section 4.8 and Section 7,Include in package manifest
+R34_SPLIT_01,derived_results,scaffold/data/protocol_split_r34/figures/protocol_split_r34_summary.csv,TRUE,YES,Derived protocol-split MLE summary table.,Figure 13 Section 4.9 and Section 7,Include in package manifest
+R34_SPLIT_02,derived_results,scaffold/data/protocol_split_r34/figures/protocol_split_r34_protocol_effect_ledger.csv,TRUE,YES,Derived protocol-split effect ledger.,Figure 13 Section 4.9 and Section 7,Include in package manifest
+R34_SPLIT_03,derived_results,scaffold/data/protocol_split_r34/figures/protocol_split_r34_decomposition.csv,TRUE,YES,Derived protocol-split factor decomposition table.,Section 4.9 and Section 7,Include in package manifest
+R34_SPLIT_04,derived_results,scaffold/data/protocol_split_r34/figures/protocol_split_r34_results_note.md,TRUE,YES,Derived protocol-split result note and gate interpretation.,Section 4.9 and runbook,Include in package manifest
+CALIB_01,derived_table,scaffold/data/calibration/pilot_specimen_coverage.csv,TRUE,YES,Derived coverage table.,Section 7,Include in package manifest
+CALIB_02,derived_table,scaffold/data/calibration/cfst_calibration_candidate_literature.csv,TRUE,CONDITIONAL,Derived bibliography/provenance table. Verify redistribution of source-derived fields.,Section 7,Audit source fields before public release
+CALIB_03,derived_table,scaffold/data/calibration/calibration_specimen_targets.csv,TRUE,CONDITIONAL,Derived target table. Verify source-derived fields.,Section 7,Audit source fields before public release
+CALIB_04,derived_table,scaffold/data/calibration/cfst_calibration_specimens_v1.csv,TRUE,CONDITIONAL,Derived calibration specimen table. Verify source-derived fields.,Section 7,Audit source fields before public release
+CALIB_PROXY_01,derived_table,scaffold/data/calibration/proxy_v1/calibration_proxy_v1_targets.csv,TRUE,CONDITIONAL,Derived proxy-target table. Six-point proxies must remain labeled.,Section 7 and Section 8,Keep proxy limitation note
+CALIB_PROXY_02,derived_table,scaffold/data/calibration/proxy_v1/calibration_proxy_v1_coverage_summary.csv,TRUE,YES,Derived proxy coverage summary.,Section 7,Include in package manifest
+CALIB_PROXY_03,derived_table,scaffold/data/calibration/proxy_v1/calibration_proxy_v1_literature_benchmark_summary.csv,TRUE,CONDITIONAL,Derived benchmark summary. Verify source-derived fields.,Section 7,Audit source fields before public release
+CALIB_OPS1_01,derived_table,scaffold/data/calibration/opensees_v1/calibration_opensees_v1_selected_cases.csv,TRUE,YES,Derived OpenSees case table.,Section 7,Include in package manifest
+CALIB_OPS1_02,derived_table,scaffold/data/calibration/opensees_v1/calibration_opensees_v1_readiness_ledger.csv,TRUE,YES,Derived readiness ledger.,Section 7,Include in package manifest
+CALIB_STATIC_01,derived_results,scaffold/data/calibration/opensees_static_v1/calibration_opensees_static_v1_results.csv,TRUE,YES,Derived static diagnostic results.,Section 7,Include in package manifest
+CALIB_STATIC_02,derived_results,scaffold/data/calibration/opensees_static_v1/calibration_opensees_static_v1_summary.csv,TRUE,YES,Derived static diagnostic summary.,Section 7,Include in package manifest
+CALIB_FIX2_01,derived_results,scaffold/data/calibration/opensees_fixture_v2/calibration_opensees_fixture_v2_results.csv,TRUE,YES,Derived fixture-v2 diagnostic results.,Section 7,Include in package manifest
+CALIB_FIX2_02,derived_results,scaffold/data/calibration/opensees_fixture_v2/calibration_opensees_fixture_v2_summary.csv,TRUE,YES,Derived fixture-v2 diagnostic summary.,Section 7,Include in package manifest
+CALIB_FIX3_01,derived_results,scaffold/data/calibration/opensees_fixture_v3/calibration_opensees_fixture_v3_results.csv,TRUE,YES,Derived fixture-v3 diagnostic results.,Section 7,Include in package manifest
+CALIB_FIX3_02,derived_results,scaffold/data/calibration/opensees_fixture_v3/calibration_opensees_fixture_v3_summary.csv,TRUE,YES,Derived fixture-v3 diagnostic summary.,Section 7,Include in package manifest
+CURVE_DIG_01,derived_manifest,scaffold/data/calibration/curve_digitization_v1/curve_digitization_manifest.csv,TRUE,CONDITIONAL,Derived digitization manifest. Verify source-image redistribution boundary.,Section 7,Audit source image rights
+CURVE_LEVEL_01,derived_results,scaffold/data/calibration/curve_level_v1/curve_level_v1_metrics.csv,TRUE,YES,Derived curve-level metric table.,Section 7 and Section 8,Include in package manifest
+HIGH_AXIAL_01,derived_results,scaffold/data/calibration/high_axial_degradation_v1/high_axial_degradation_v1_case_results.csv,TRUE,YES,Derived high-axial diagnostic results. Boundary case only.,Section 6 and Section 7,Do not use for mechanism claim without author note
+HIGH_AXIAL_02,derived_results,scaffold/data/calibration/high_axial_degradation_v1/high_axial_degradation_v1_summary.csv,TRUE,YES,Derived high-axial diagnostic summary. Boundary case only.,Section 6 and Section 7,Do not use for mechanism claim without author note
+NF28_SMOKE_01,derived_table,scaffold/data/nf28_smoke/nf28_smoke_selection.csv,TRUE,YES,Derived NF28 smoke-test selection table.,Section 7,Include in package manifest
+FIG01,generated_figure,scaffold/docs/manuscript_drafts/figures/fig1_workflow.png,TRUE,YES,Generated scientific figure.,Figure 1,Include as separate artwork file
+FIG02,generated_figure,scaffold/docs/manuscript_drafts/figures/fig2_spectral_shape_index.png,TRUE,YES,Generated scientific figure.,Figure 2,Include as separate artwork file
+FIG03,generated_figure,scaffold/docs/manuscript_drafts/figures/fig3_formal_pilot_summary.png,TRUE,YES,Generated scientific figure.,Figure 3,Include as separate artwork file
+FIG04,generated_figure,scaffold/docs/manuscript_drafts/figures/fig4_ida_stripes_example.png,TRUE,YES,Generated scientific figure.,Figure 4,Include as separate artwork file
+FIG05,generated_figure,scaffold/docs/manuscript_drafts/figures/fig5_mechanism_composition_pilot.png,TRUE,YES,Generated scientific figure.,Figure 5,Include as separate artwork file
+FIG06,generated_figure,scaffold/docs/manuscript_drafts/figures/fig6_expanded_v2_summary.png,TRUE,YES,Generated scientific figure.,Figure 6,Include as separate artwork file
+FIG07,generated_figure,scaffold/docs/manuscript_drafts/figures/fig7_expanded_v2_mechanism_composition.png,TRUE,YES,Generated scientific figure.,Figure 7,Include as separate artwork file
+FIG08,generated_figure,scaffold/docs/manuscript_drafts/figures/fig8_sensitivity_v3_summary.png,TRUE,YES,Generated scientific figure.,Figure 8,Include as separate artwork file
+FIG09,generated_figure,scaffold/docs/manuscript_drafts/figures/fig9_threshold_sensitivity_v4_theta.png,TRUE,YES,Generated scientific figure.,Figure 9,Include as separate artwork file
+FIG10,generated_figure,scaffold/docs/manuscript_drafts/figures/fig10_threshold_sensitivity_v4_ledger.png,TRUE,YES,Generated scientific figure.,Figure 10,Include as separate artwork file
+FIG11,generated_figure,scaffold/data/calibration/curve_level_v1/figures/curve_level_v1_overlay_panels.png,TRUE,YES,Generated diagnostic figure with dense/proxy curve boundary.,Figure 11 and Section 8,Include or mirror into artwork folder before final export
+FIG12,generated_figure,scaffold/docs/manuscript_drafts/figures/fig12_r1_delta_logtheta_distribution.png,TRUE,YES,Generated existing-record bootstrap screening figure.,Figure 12 and Section 4.8,Include as separate artwork file
+FIG13,generated_figure,scaffold/docs/manuscript_drafts/figures/fig13_protocol_split_r34_delta_logtheta.png,TRUE,YES,Generated protocol-split figure.,Figure 13 and Section 4.9,Include as separate artwork file
+CODE_01,source_code,scaffold/src/,TRUE,YES,Source code package.,Methods and reproducibility statement,Include source code
+TOOLS_01,source_code,scaffold/tools/,TRUE,CONDITIONAL,Analysis scripts. Exclude local conflict duplicates before public release.,Methods and reproducibility statement,Create clean public script manifest
+CONFIG_01,configuration,scaffold/configs/,TRUE,YES,Configuration files.,Methods and runbook,Confirm final config set
+PYPROJECT_01,configuration,scaffold/pyproject.toml,TRUE,YES,Python dependency and build metadata.,Runbook environment setup,Use for clean-environment install
+AUTHOR_GUIDE_01,official_url,https://www.sciencedirect.com/journal/engineering-structures/publish/guide-for-authors,NA,LINK_ONLY,Official Engineering Structures Guide for Authors.,Submission package,Recheck live immediately before submission
+ELSEVIER_AI_01,official_url,https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals,NA,LINK_ONLY,Official Elsevier generative AI policy.,AI disclosure,Recheck live immediately before submission

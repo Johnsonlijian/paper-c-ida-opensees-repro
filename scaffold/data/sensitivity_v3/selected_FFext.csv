@@ -1,0 +1,11 @@
+gm_set,gm_id,path,dt,npts,pga_g,record_set
+FFext_AT2_flat,STM090,data/gm_ffext/STM090.AT2,0.02,2000.0,0.883219,FFext
+FFext_AT2_flat,ABBAR--T,data/gm_ffext/ABBAR--T.AT2,0.02,2300.0,0.496352,FFext
+FFext_AT2_flat,STM360,data/gm_ffext/STM360.AT2,0.02,2000.0,0.369872,FFext
+FFext_AT2_flat,CH12000,data/gm_ffext/CH12000.AT2,0.02,2000.0,0.286714,FFext
+FFext_AT2_flat,ARC000,data/gm_ffext/ARC000.AT2,0.005,6000.0,0.218836,FFext
+FFext_AT2_flat,PEL180,data/gm_ffext/PEL180.AT2,0.01,2800.0,0.174179,FFext
+FFext_AT2_flat,H-DLTDWN,data/gm_ffext/H-DLTDWN.AT2,0.01,9992.0,0.144955,FFext
+FFext_AT2_flat,ILA027-E,data/gm_ffext/ILA027-E.AT2,0.005,17801.0,0.101309,FFext
+FFext_AT2_flat,ILA027-N,data/gm_ffext/ILA027-N.AT2,0.005,17801.0,0.0624175,FFext
+FFext_AT2_flat,CHY059-V,data/gm_ffext/CHY059-V.AT2,0.005,18000.0,0.0151785,FFext

@@ -1,0 +1,2 @@
+# Alias: identical to `default` — use for HPC / SLURM job name clarity.
+extends: default

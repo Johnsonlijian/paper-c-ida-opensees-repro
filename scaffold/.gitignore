@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDA / HPC
+data/ida_results/
+*.out
+slurm-*.out
+hpc/*.log
+
+# Data (large) — un-ignore selectively if you commit small fixtures
+# data/ground_motions/
+*.AT2
+!tests/fixtures/**/*.AT2
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Secrets
+.env
+*.env.local
+
+# Cursor
+*.local.md
