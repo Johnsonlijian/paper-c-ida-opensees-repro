@@ -2,12 +2,12 @@
 
 This package supports the manuscript:
 
-**Record-Pool and Protocol-Factor Selection as Hidden Evaluation Variables in Component-Level Seismic Fragility: Censored IDA Evidence from Pilot CFST Column Models**
+**Record-pool and protocol sensitivity in component-level seismic fragility estimation: censored IDA evidence from pilot CFST column models**
 
-The package is prepared for a dual route selected on 2026-05-13 and updated after the R36 full-pool repeated-subset run bank:
+The package is prepared for the EEEV submission-preparation route and updated after the R36 full-pool repeated-subset run bank:
 
 - a public GitHub repository for redistributable code, configuration, derived tables, generated figures, and run instructions;
-- a private reviewer archive for submission-stage review where needed.
+- a private reviewer archive for submission-stage review where needed, maintained outside this public repository.
 
 If this package is viewed through the GitHub repository, the repository is the public release of the redistributable reproducibility materials. No DOI or private reviewer archive identifier is claimed unless separately stated.
 

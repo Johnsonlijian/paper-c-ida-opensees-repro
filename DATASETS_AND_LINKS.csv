@@ -54,5 +54,5 @@ CODE_01,source_code,scaffold/src/,TRUE,YES,Source code package.,Methods and repr
 TOOLS_01,source_code,scaffold/tools/,TRUE,CONDITIONAL,Analysis scripts. Exclude local conflict duplicates before public release.,Methods and reproducibility statement,Create clean public script manifest
 CONFIG_01,configuration,scaffold/configs/,TRUE,YES,Configuration files.,Methods and runbook,Confirm final config set
 PYPROJECT_01,configuration,scaffold/pyproject.toml,TRUE,YES,Python dependency and build metadata.,Runbook environment setup,Use for clean-environment install
-AUTHOR_GUIDE_01,official_url,https://www.sciencedirect.com/journal/engineering-structures/publish/guide-for-authors,NA,LINK_ONLY,Official Engineering Structures Guide for Authors.,Submission package,Recheck live immediately before submission
-ELSEVIER_AI_01,official_url,https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals,NA,LINK_ONLY,Official Elsevier generative AI policy.,AI disclosure,Recheck live immediately before submission
+AUTHOR_GUIDE_01,official_url,https://link.springer.com/journal/11803/submission-guidelines,NA,LINK_ONLY,Official EEEV/Springer submission guidelines.,Submission package,Recheck live immediately before submission
+SPRINGER_AI_01,official_url,https://www.springernature.com/gp/editorial-policies/artificial-intelligence--ai-/25428500,NA,LINK_ONLY,Official Springer Nature AI policy page.,AI disclosure,Recheck live immediately before submission

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this package, please cite the associated manuscript."
-title: "Record-Pool Selection as a Hidden Evaluation Variable in Component-Level Seismic Fragility: Censored IDA Evidence from Pilot CFST Column Models"
+title: "Record-pool and protocol sensitivity in component-level seismic fragility estimation: censored IDA evidence from pilot CFST column models"
 authors:
   - family-names: "REN"
     given-names: "Lijian"
     email: "renlijian@imut.edu.cn"
 version: "0.1.0"
-date-released: "2026-05-13"
+date-released: "2026-05-18"
 license: "MIT"
-abstract: "Reproducibility package for a diagnostic OpenSees/IDA manuscript on record-pool selection, right-censored fragility fitting, and protocol-effect reporting for pilot CFST column models."
+abstract: "Reproducibility package for an OpenSees/IDA protocol-sensitivity manuscript on record-pool selection, right-censored fragility fitting, repeated subset resampling, and protocol-effect reporting for pilot CFST column models."
